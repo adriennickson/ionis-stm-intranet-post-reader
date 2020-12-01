@@ -1,0 +1,7 @@
+{
+  "name": "ionisStm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
