@@ -1,0 +1,7 @@
+ion-datetime{
+    --padding-start: 0!important;
+    color: #000000ff!important;
+}
+ion-badge{
+    margin-right: 5px!important;
+}

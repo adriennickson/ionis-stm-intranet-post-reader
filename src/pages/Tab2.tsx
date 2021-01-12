@@ -1,26 +1,40 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import {
+    IonCheckbox,
+    IonContent,
+    IonHeader,
+    IonInput,
+    IonItem, IonItemOption, IonItemOptions, IonItemSliding,
+    IonLabel,
+    IonList,
+    IonPage, IonRadio,
+    IonTitle,
+    IonToggle,
+    IonToolbar
+} from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
+import PostsContainer from "../components/PostsContainer";
 
 const Tab2: React.FC = () => {
-  return (
+    return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 2</IonTitle>
+          <IonTitle>Publications</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        {/*
+        <IonHeader>
           <IonToolbar>
-            <IonTitle size="large">Tab 2</IonTitle>
+            <IonTitle size="large">Les publications de l'école</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+        */}
+        <PostsContainer />
       </IonContent>
     </IonPage>
   );
 };
-
 export default Tab2;
