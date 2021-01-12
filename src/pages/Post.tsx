@@ -41,7 +41,7 @@ const Post: React.FC<PostDetailPageProps> = ({match}) => {
                 </IonCardContent>
             </IonCard>
         // button = <LogoutButton onClick={this.handleLogoutClick} />;
-    } else {
+    } else if(item?.title?.rendered !== "Chargement...") {
         contenu =
             <IonCard>
                 <IonCardHeader>
