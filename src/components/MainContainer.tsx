@@ -1,4 +1,5 @@
 import React from 'react';
+import './MainContainer.css';
 import { IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent } from '@ionic/react';
 import { IonThumbnail, IonImg } from '@ionic/react';
 

@@ -1,0 +1,11 @@
+ion-img {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@media (min-width: 481px) {
+  ion-img {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
