@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { IonItem, IonLabel, IonAvatar } from '@ionic/react';
 
 import ExploreContainer from '../components/ExploreContainer';
@@ -51,6 +51,27 @@ const Tab3: React.FC = () => {
                       <p>M1 Info</p>
                   </IonLabel>
               </IonItem>
+              <IonCardHeader>
+                <IonCardTitle>A propos</IonCardTitle>
+            </IonCardHeader>
+
+            <IonCardContent>
+                        Pour la réalisation de ce projet, nous avons conçu une application Android qui permet aux étudiants
+                        de IONIS-STM de pouvoir voient les différentes publications qui sont publiées sur l'intranet de l'école.
+                        Alors pour ce projet, nous avons utilisé un ensemble de composants tels que:  
+                        <ul>
+                            <li>IonTitle</li>
+                            <li>IonLabel</li>
+                            <li>IonItem</li>
+                            <li>IonAvatar</li>
+                            <li>IonToolbar</li>
+                            <li>IonContent</li>
+                            <li>IonHeader</li>
+                            <li>IonCardTitle</li>
+                            <li>IonCardHeader</li>
+                            <li>ETC...</li>
+                         </ul>           
+             </IonCardContent>
           </IonContent>
       </IonContent>
     </IonPage>
